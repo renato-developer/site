@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Ubuntu Light';
+    src: url('../fonts/ubuntu/Ubuntu-L.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu Bold';
+    src: url('../fonts/ubuntu/Ubuntu-B.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('../fonts/roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('../fonts/roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --Picton-Blue: #39A4DD;
+    --Purpureus: #9A57B4;
+    --Salmon: #FF8269;
+    --Emerald: #4CBB6F;
+    --White-Smoke: #F2F2F2;
+    --Black: #23292C;
+    --Black-75: rgba(35, 41, 44, 0.75);
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-Ubuntu-Light: 'Ubuntu Light', Times, sans-serif;
+    --fonte-Ubuntu-Bold: 'Ubuntu Bold', Times, sans-serif;
+    --font-Roboto-Bold: 'Roboto Bold', Times, sans-serif;
+    --fonte-Roboto-Regular: 'Roboto Regular', Times, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+    padding: 32px 64px 32px 64px;
+}
+
+nav > a {
+    color: var(--Black);
+    font-family: var(--fonte-Ubuntu-Bold);
+    font-size: 15px;
+    text-decoration: none;
+    padding: 32px;
+}
+
+nav > a:hover {
+    background-color: var(--Picton-Blue);
+    color: var(--White-Smoke);
+}
+
+
+body {
+    min-width: 320px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+#apresentacao {
+    padding: 256px 0px 256px 0px;
+}
+
+#apresentacao > h1 {
+    color: var(--Picton-Blue);
+    font-family:var(--fonte-Ubuntu-Light);
+    font-size: 84px;
+    font-weight: normal;
+    text-align: center;
+    padding: 0px 0px 32px 0px;
+}
+
+#apresentacao > h2 {
+    color: var(--Black);
+    font-family: var(--fonte-Ubuntu-Bold);
+    font-size: 119px;
+    text-align: center;
+    padding: 0px 0px 32px 0px;
+}
+
+#apresentacao > p {
+    color: var(--Black-75);
+    font-family: var(--fonte-Roboto-Regular);
+    font-size: 21px;
+    text-align: center;
+}
+
+#portifolio {
+    padding: 0px 0px 256px 0px;
+}
+
+#portifolio > h1 {
+    color: var(--Picton-Blue);
+    font-family: var(--fonte-Ubuntu-Light);
+    font-size: 84px;
+    font-weight: normal;
+    text-align: center;
+    padding: 0px 0px 32px 0px;
+}
+
+#portifolio > p {
+    color: var(--Black-75);
+    font-family: var(--fonte-Roboto-Regular);
+    font-size: 21px;
+    text-align: center;
+}
+
+#planos {
+    padding: 0px 0px 256px 0px;
+}
+
+#planos > h1 {
+    color: var(--Picton-Blue);
+    font-family: var(--fonte-Ubuntu-Light);
+    font-size: 84px;
+    font-weight: normal;
+    text-align: center;
+    padding: 0px 0px 128px 0px;
+}
+
+#planos > h2 {
+    color: var(--Picton-Blue);
+    font-family: var(--fonte-Ubuntu-Bold);
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 0px 32px 0px;
+}
+
+#planos > p {
+    color: var(--Black-75);
+    font-family: var(--fonte-Roboto-Regular);
+    font-size: 21px;
+    text-align: center;
+}
+
+#contato {
+    padding: 0px 0px 256px 0px;
+}
+
+#contato > h1 {
+    color: var(--Picton-Blue);
+    font-family: var(--fonte-Ubuntu-Light);
+    font-size: 84px;
+    font-weight: normal;
+    text-align: center;
+    padding: 0px 0px 32px 0px;
+}
+
+#contato > p {
+    color: var(--Black-75);
+    font-family: var(--fonte-Roboto-Regular);
+    font-size: 21px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#blog {
+    padding: 0px 0px 256px 0px;
+}
+
+#blog > h1 {
+    color: var(--Picton-Blue);
+    font-family: var(--fonte-Ubuntu-Light);
+    font-size: 84px;
+    font-weight: normal;
+    text-align: center;
+    padding: 0px 0px 32px 0px;
+}
+
+#blog > p {
+    color: var(--Black-75);
+    font-family: var(--fonte-Roboto-Regular);
+    font-size: 21px;
+    text-align: center;
+}
+
+footer > h1 {
+    color: var(--Picton-Blue);
+    font-family: var(--fonte-Ubuntu-Bold);
+    font-size: 30px;
+}
+
+footer > p {
+    color: var(--Black-75);
+    font-family: var(--fonte-Roboto-Regular);
+    font-size: 21px;
+}
